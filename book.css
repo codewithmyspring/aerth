@@ -1,0 +1,157 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.main{
+    min-height:100vw ;
+    width: 100vw;
+    background-color: rgb(197, 228, 239);
+}
+.navbar{
+    height: 6vw;
+    width: 100%;
+    background-color:rgb(0, 115, 255);
+    display: flex;
+    color: white;
+}
+.nav-l{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width:35%;
+}
+.nav-l img{
+    height: 5vw;
+
+}
+.nav-c{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width:29%;
+}
+.nav-c img{
+    height: 6vw;
+
+}
+.nav-r{
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width:35%;
+    font-size: 2vw;
+    
+}
+.nav-r a{
+    text-decoration: none;
+    color: white;
+    
+}
+.nav-r i{
+    font-size: 2vw;
+}
+.box{
+    padding: 0 40px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+}
+
+.left_box{
+    padding: 10px 20px;
+    margin-top: 50px;
+    width: 48vw;
+    height: 20vw;
+    background-color: white;
+    border: 1px solid blue;
+
+}
+.left_box h1{
+    font-weight: 200;
+}
+.left_box select{
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+    font-size: 8vw;
+}
+.boxhero{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left_box button{
+    margin-top: 30px;
+    padding: 20px 6vw;
+    font-size: 1.5vw;
+    margin-right: 25px;
+}
+.right_box{
+    padding: 10px 20px;
+    margin-top: 48px;
+    width: 40vw;
+    height: 25vw;
+    background-color: white;
+    border: 1px solid blue;
+}
+.right_box h1{
+    font-weight: 200;
+}
+.right_box select{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    font-size: 8vw;
+}
+.right_box p{
+    margin-top: 15px;
+    /* padding: 20px 6vw; */
+    font-size: 1.5vw;
+    margin-right: 25px;
+}
+#gross {
+    margin-top: 20px;
+    width: 230px;
+    height: 30px;
+    font-size: 2vw;
+    border-radius: 10px;
+    margin-left: 20px;
+
+}
+.right_box button{
+    margin-top: 20px;
+    padding: 20px 6vw;
+    font-size: 1.5vw;
+    margin-right: 25px;
+}
+a{
+    text-decoration: none;
+}
+.down-box{
+    padding: 0 40px;
+}
+.lbox{
+    margin-top: -40px;
+    width: 50vw;
+    height: 4vw;
+    background-color: white;
+    font-size: 1.4vw;
+    margin-left: -3vw;
+}
+.r_box{
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-left: 51vw;
+    width: 40vw;
+    height: 15vw;
+    background-color: rgb(127, 196, 221);
+
+}
